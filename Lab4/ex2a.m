@@ -1,5 +1,5 @@
 %2. Using a standard uniform random number generator, generate the common
-%discrete probability distributions
+%discrete probability distributions 
 
 %a. Bernoulli Distribution - Bern(p), p in (0,1)
 
