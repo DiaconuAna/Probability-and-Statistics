@@ -49,7 +49,7 @@ n2 = norminv(alpha/2,0,1);
 limit1 = xbar - sigma/sqrt(n)*n1;
 limit2 = xbar - sigma/sqrt(n)*n2;
 
-fprintf('The confidence interval for the average number of stored files is is: (%6.3f,%6.3f)\n',limit1,limit2);
+fprintf('The confidence interval for the average number of stored files is: (%6.3f,%6.3f)\n',limit1,limit2);
 
 
 
