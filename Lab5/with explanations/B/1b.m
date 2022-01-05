@@ -33,4 +33,4 @@ t2 = tinv(alpha/2, n-1);
 limit1 = xbar- s/sqrt(n)*t1;
 limit2 = xbar - s/sqrt(n)*t2;
 
-fprintf('The confidence interval for the average number of stored files is is: (%6.3f,%6.3f)\n',limit1,limit2);
+fprintf('The confidence interval for the average number of stored files  is: (%6.3f,%6.3f)\n',limit1,limit2);
