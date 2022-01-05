@@ -69,4 +69,4 @@ t1 = tinv(1-alpha/2,n1+n2-2);
 limit1 = xbar1 - xbar2 - t1*sp*sqrt(1/n1+1/n2);
 limit2 = xbar1 - xbar2 + t1*sp*sqrt(1/n1+1/n2);
 
-fprintf('The confidence interval for the difference of true means is: (%6.3f,%6.3f)\n',sqrt(limit1v), sqrt(limit2v));
+fprintf('The confidence interval for the difference of true means is: (%6.3f,%6.3f)\n',limit1, limit2);
