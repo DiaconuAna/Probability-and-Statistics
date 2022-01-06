@@ -7,7 +7,7 @@
 % => we perform a right-tailed test <=> tail = 1
 % H1 states that the number of files stored exceeds 5.5
 
-fprintf("We are doing a left-tailed test for the mean (sigma unknown)\n");
+fprintf("We are doing a right-tailed test for the mean (sigma unknown)\n");
 
 
 % since we want to perform a test for the population mean with a large
