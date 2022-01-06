@@ -60,4 +60,4 @@ fprintf('The P-value of the test is %4.4f\n\n', p);]
 
 % The rejection region is (1.6896,  Inf)
 % The value of the test statistic z is 2.3356
-The P-value of the test is 0.0127
+% The P-value of the test is 0.0127
