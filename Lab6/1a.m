@@ -47,7 +47,8 @@
 
 
 % part1: alpha = 0.05, the significance level
-alpha = 0.05;
+ alpha = 0.05;
+% alpha =0.01;
 
 x = [7, 7, 4, 5, 9, 9, 4, 12, 8, 1, 8, 7, 3, 13, 2, 1, 17, 7,...
    12, 5, 6, 2, 1, 13, 14, 10, 2, 4, 9, 11, 3, 5, 12, 6, 10, 7];
@@ -110,4 +111,15 @@ fprintf('The P-value of the test is %4.4f\n\n', P)
 % The value of the test statistic z is -2.2667
 % The P-value of the test is 0.0117
 
+% do the same when alpha = 0.01 (1%)
+
+% We are doing a left-tailed test for the mean (sigma known)
+
+% H is 0
+% So the null hypothesis is not rejected,
+% i.e. the data suggests that the standard IS  met.
+
+% The rejection region is (-Inf, -2.3263)
+% The value of the test statistic z is -2.2667
+% The P-value of the test is 0.0117
 
